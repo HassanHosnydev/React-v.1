@@ -1,0 +1,753 @@
+/* .css {
+    background-color: aqua;
+    background-image: url(../grunge-paint-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px  200px; 
+    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    background-position: 20px 10px;
+    background-position: 10% 20%;  
+    margin-top: -40px;
+    border: 8px solid red;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    outline: 15px solid violet;
+    border-radius: 100px;
+}
+div { background-color: tomato;
+    border: 4px solid black;
+    padding: 20px;
+    display: none;
+    visibility: hidden;
+    
+}
+.one, .two, .three { مشترك}
+div p .one {Nesting}
+div { background-color: cadetblue;
+    padding: 10px;
+    display: inline-block;
+    min-width: 100px;
+    max-width: 200px;
+    width: fit-content;
+}
+ div { background-color: crimson;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+    overflow-x: ;
+    overflow-y: ; */
+
+/* div { background-color: darkcyan;
+    font-size: 30pt;
+    width: 1fr;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 12px 10px 10px black;
+    text-decoration: underline;
+    text-transform: capitalize [ يستخدم لتنسيق الكلام اول حرف كابيتل];
+    leter-spacing: 3px [المسافة بين الاحرف];
+    word-spacing: 3px [المسافة بين الكلمات ];
+    white-space; nowrap;
+    word-break: break-word [ لمنع الافور فلو في التيكست فس حالة اللينكات الطويلة ]
+    textiindent: 10px [المسافة اللي قبل الكلام ];
+    line-height: 1.6 [ المسافت بين السطور];
+    margin: auto;
+    direction: rtl [لما الموثع يبقي عربي ];
+    vertical-align: middle [يستخدم لمحاذاة الصورة رأسيا ;
+} */
+/* p { background-color: #eee;
+    width: 400px;
+    font-size: 36pt;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis (نقط مكان الزيادة);
+    margin: 0;
+} */
+/* div { background-color: thistle;
+    padding: 10px;
+    border: solid red 3px;
+    width:600px ;
+    height ; 400px
+    cursor: pointer; [ لتغير شكل الماوس]
+}
+p {
+    border-style: solid;
+    border-color: inherit [تستخد لتورث الخاصية من ال الاب ]; 
+} */
+/* vw ----view port width */
+/* .parent {
+    background-color: red;
+    padding: 10px;
+}
+.parent div {
+    background-color: #eee ;
+    text-align: center;
+    font-size: 20pt;
+    width: calc((100% - 60px) / 5 );
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.clear {
+    clear: both;
+} */
+
+/* .opacity { 
+    background-color: blue;
+    opacity: 0.5;
+} */
+/* 
+    height: 5000px;
+}
+.one { background-color: blue;
+    width: 200px;
+    font-size: 25pt;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+.two { background-color: crimson;
+    width: 200px;
+    font-size: 25pt;
+    position: fixed; [ بيتحرك معاك لما تعمل سكرول ]
+    bottom: 0;
+    right: 0;
+}
+
+.parent {
+    background-color: gray;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    ;
+} */
+/* div { background-color: hotpink;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    position: sticky;[بيخلي البلوك ثابت في مكان ما لما تعمل سكرول]
+    top:20px;
+    z-index: 20; [ يستخدم لترتيب اولوية الطبقات مين اللي فوق ولازم يكون فيه بوسيشن]
+} */
+/* div {
+    
+    background-color: lawngreen;
+    width: 500px;
+    height: 300px;
+    font-size: 20pt ;
+    color: lemonchiffon;
+    text-align: center;
+}
+div:hover {
+    display: flex;
+    background-color: lightseagreen;
+    color: magenta;
+    border-radius: 100px ; 
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    opacity: 0.6;
+} 
+a:visited {color: sienna;}
+
+.css:focus {
+    border: 7px solid red;
+    outline: none;
+}
+div::first-letter {
+    background-color: royalblue;
+    color: white;
+    font-size: 60px ;
+}
+::selection {
+    background-color: turquoise;
+    color: yellowgreen;
+}
+one::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    right: -10px;
+    top: 0;
+    background-color: #009688;
+}
+.one::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 0;
+    height: 0;
+    background-color: white;
+    margin-top: -10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent #009688 transparent transparent;
+} */
+/* .parent{
+    margin-top: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    counter-increment: counter;
+}
+.one{ background-color: #eee;
+    margin: 10px;
+    width: 800px;
+    height: 60px;
+    float: left;
+    position: relative; 
+    transition: 5s
+}
+.one::after {
+    content: counter(counter);
+    background-color: darkblue;
+    color: white;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    right: -10px;
+    top: 50%;
+    
+}
+.one::before {
+    content: attr(data-text); 
+    display: none;
+}
+
+    .one:hover::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0%;
+        border: 10px solid;
+        border-color: transparent transparent transparent aqua;
+        left: -10px;
+        bottom:  50%;
+        margin-bottom: -15px;
+        
+    }
+    ul{
+        padding-left: 0;
+        list-style: none;
+    }
+    ul li {
+        position: relative;
+    }
+    ul li::before { content: "";
+        position: absolute;
+        width: 0;
+        height: 0%;
+        border: 10px solid;
+        border-color: transparent transparent transparent aqua;
+        left: -10px;
+        bottom:  50%;
+        margin-bottom: -15px;
+    } */
+    /* العظمة */
+    :root{
+        --maincolor: #101216;
+    }
+    header a:visited {
+        color: #007e7300;
+    }
+    html,body {
+        height: 100%;
+        margin: 0;
+        font-family: sans-serif;
+        background: linear-gradient(-45deg,#101216 42% ,turquoise , #007e73,#101216);
+	    background-size: 400% 400%;
+	    animation-name: anime;
+        animation-timing-function:ease-out;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: calc(100% - 56px);
+        caret-color: #007e73 ;
+        pointer-events: [none];
+        height: calc(100vh - 56px);
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: var(--maincolor);
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #007e73;
+        height:56px ;
+        box-shadow: 0 5px 15px 0 #007e73;
+    }
+    .css {
+        border: 3px solid #007e73;
+        border-radius: 0% 40% 0% 40%;
+        padding: 2px 8px 2px 8px;
+    }
+    header a {
+        text-decoration: none;
+        color: #adadad ;
+    }
+    .box h1 {
+        color: #007e73;
+        font-size: 25pt;
+        font-weight: 00;
+        margin-bottom: 0;
+    }
+    .box {
+        text-align: center;
+        border: 0px solid ;
+        border-radius: 22px;
+        display: flex;
+        flex-direction:column;
+        width: 600px;
+        height: 300px;
+        background-color: var(--maincolor);
+        justify-content: center;
+        align-items: center;
+    }
+    .box .smallbox input[ type = "text"] , .smallbox input[ type = "password"] {
+        border-radius: 100px;
+        display: flex;
+        border: 2px solid;
+        margin: 10px auto;
+        border-color: #007e73;
+        outline: none;
+        text-align: center;
+        width: 200px;
+        padding: 14px;
+        background:none;
+        transition: 0.25s;
+        color: white;
+    }
+    .smallbox input[type = "text"]:focus ,.smallbox input[type = "password"]:focus {
+        width:300px;
+    }
+    .box input[type = "submit" ] { 
+        text-align: center;
+        border-radius: 100px;
+        display: block;
+        border: 2px solid;
+        margin: 10px auto;
+        border-color: #007e73;
+        outline: none; 
+        color: #007e73;
+        width: 150px;
+        padding: 14px;
+        background:none;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+    .box input[type="submit"]:hover {
+        background-color: #007e73 ;
+        color: #1f232c;
+    }
+    .box input::placeholder { color: #007e73 ;}
+    @keyframes anime { 
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+    /* box-sizing: border-box [البورد والبادينج من جوة ومبيزودوش مساحة ] */
+/*           مهمة فشخ
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    transition-property: width;
+    transition-timing-function: ease-in-out;
+    transition: all 2s 0.5s linear; */
+
+    /* !IMPORTANT [ بتحط علي اي حد ] 
+    Only vertical margin collapse 
+    bigger margin wins
+    لو في حاجة بين الاتنين مارجن مش هيحسل كولابس 
+    Nesting dose not preventing collapse*/
+
+/* CSS Variables
+- Global Variable
+- Local Variable
+var(Variable Name, Fall Back Value)
+
+
+:root {
+    --mainColor: blue;
+    --mainPadding: 10px; */
+/* flex-basis = sidth [بس للفليكس بوكس وبيبقي علي حسب اتجاه الفليكس] 
+For Child
+- flex-grow: 0 => Default Value
+- flex-shrink: 1 => Default Value
+- order: 0 => Default Value
+- flex-basis: auto => Default Value
+- flex: [Flex Grow] [Flex Shrink] [Flex Basis] 0 1 Auto
+[inline-flex دة عظيييييييييييم]
+[align-self لعنصر من مجموعة عناصر ]
+*/
+/* img {
+    width: 800px;
+    height: 400px;
+    filter: grayscale(0);
+    filter: blur(0px);
+    filter: invert(100%);
+    transition: 0.5s;
+}
+img:hover{
+    filter: grayscale(0);
+    filter: blur(0);
+    filter: invert(0%)
+} */
+/* html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.one {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+} 
+.one div {
+    background-color: #eee;
+    width: 600px;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+    position: relative;
+    border-left: solid 15px #f34436;
+    border-right: solid 15px #673ab7;
+    box-sizing: border-box;
+    padding: 30px;
+}
+#red::first-letter {
+    color: #f34436;
+    
+}
+.one div::before {
+    content: "";
+    position: absolute;
+    left:0;
+    top:0px;
+    width: 100%;
+    background-image: linear-gradient(to right ,
+    #f34436 20% , 
+    #2295f3 20% ,
+    #2295f3 40% , 
+    #4caf50 40% ,
+    #4caf50 60% ,
+    #e91e63 60%,  
+    #e91e63 80%,
+    #673ab7 80%  );
+    height: 15px;
+}
+.one div::after {
+    content: "";
+    position: absolute;
+    left:0;
+    bottom:0px;
+    width: 100%;
+    background-image: linear-gradient(to right ,
+    #f34436 20% , 
+    #2295f3 20% ,
+    #2295f3 40% , 
+    #4caf50 40% ,
+    #4caf50 60% ,
+    #e91e63 60%,  
+    #e91e63 80%,
+    #673ab7 80%  );
+    height: 15px;
+    line-height: 0;
+} */
+/*
+Grid
+Parent
+- display: grid | inline-grid
+- grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat, Mix]
+- grid-template-rows: [Number Of Rows In] => [Px, %, Auto, Fraction, Repeat, Mix]
+- gap: [Row Gap] [Column Gap] المسافات بين البلوكس 
+*/
+/*  ترانسفورم التمدد علي المحورين الافقي ةالرأسي وبالسالب تشقلب 
+ */
+
+/* body {
+margin: 0;
+}
+div {
+    overflow: hidden;
+    width:100%;
+    height: 100vh;
+    position: relative;
+}
+div img {
+    width: 400px;
+    height: 200px;
+    opacity: 0.75; ;
+    transition: 0.5s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+div img:hover {
+    transform: scale(2 ,2);
+    opacity: 1;
+}
+h1 {
+    color: cyan;
+    position: relative;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 20px;
+    transform: translateY(-150px);
+}
+h1::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(197, 15, 15);
+    z-index: -1;
+    left: 0;
+    top:0;
+    transform: skew(337deg ,6deg);
+    [  matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY() =
+    transform: translateX(20px) translateY(20px) scaleX(1.2) skewY(15deg) skewX(0deg) scaleY(1.2); ]
+    [ transform-origin نقطة الاصل اللي بيحصل عندها التغير  ] 
+} */
+ /* [ assignment] */
+/* div {
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: #eee;
+    color: #00a9f4;
+    position: relative;
+    margin: 100px auto;
+
+}
+div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#00a9f4 ;
+    width: 300px;
+    height: 200px;
+    z-index: -1;
+    transform: skew(9deg,354deg);
+}
+div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#e91e63 ;
+    width: 300px;
+    height: 200px;
+    z-index: -2;
+    transform:skew(-9deg,-354deg);
+ }  */
+/* [asignmen2] 
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 100px auto;
+    background-color: #eee;
+    border-radius: 400px;
+    position: relative;
+    border: 0;
+}
+div::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    border: 8px solid;
+    border-color: #e91e63 #e91e63 #e91e63 white;
+    border-radius: 440px ;
+    position: absolute;
+    /* top:-10px;
+    left: -10px;
+    z-index: -1;
+    
+} 
+div::after {
+    content: "";
+    width: 200px;
+    height: 200px;
+    border: 16px solid;
+    border-color: #2295f3 white #2295f3 #2295f3 ;
+    border-radius: 460px ;
+    position: absolute;
+    z-index: -2;
+}   */
+/* [Perspective, Perspective Origin لازم يبيقي موجزدين في الاب عشان ال3dd يشتغل **** ] */
+/* [ ميتين أمك ]
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    margin: 100px auto;
+    width: 200px;
+    perspective: 600px;
+}
+.box { 
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+    transform-origin: right center;
+}
+.box:hover {
+    transform: translate(-100%) rotatey(180deg);
+
+}
+
+.box .face {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    
+}
+.box .front {
+    background-color: tomato;
+}
+.box .back {
+    background-color: yellow;
+    transform: rotatey(180deg);
+} */
+/* [ الوان فشيخة $b1cd: #500033;
+$b1cl: #FF0077;
+$b2cd: #000050;
+$b2cl: #0033FF;
+$b3cd: #00501D;
+$b3cl: #00FF44;
+$b4cd: #554D00;
+$b4cl: #FF4E00;
+$b5cd: #300050;
+$b5cl: #8000FF;
+$black: #000;
+$white: #fff;
+$grey: #B5B4B4;] */
+/* [Animation]
+animation-name: coloring;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+  animation-delay: -2s;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation: coloring 3s linear 2s infinite reverse; */
+/* [Loadin]
+div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -50px -50px;
+    background-color: thistle;
+    border-radius: 50%;
+    border: 10px solid brown;
+    border-left-color:transparent;
+    animation-name: spin;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+/* [SELECTOR]
+  CSS Selectors
+  - *
+  - Element => [p, div, h2]
+  - Element OtherElement => div p
+  - .class-name
+  - #id-name
+  - .parent .child
+  - .class-one.class-two
+  - .class-name div, .class-name p
+  - Element.class-name => p.class-name
+  - .parent > .child => Direct Child 
+  CSS Selectors
+  - Element + Other Element => [div + p]
+  - Element ~ Other Elements => [p ~ div]
+  - [Attribute]
+  - Element[Attribute]
+  - [Attribute=Value]
+  - Element[Attribute=Value] => input[type="submit"]
+  - [Attribute~=Value] => Contains A Word
+  - [Attribute*=Value] => Contains A Atring
+  - [Attribute^=Value] => Start With A String
+  SS Selectors
+  - :first-child
+  - :last-child
+  - :first-of-type
+  - :last-of-type
+  - :only-child
+  CSS Selectors
+  - :not(Selectors)
+  - :nth-child(n)
+  - :nth-last-child(n)
+  - :nth-of-type(n)
+  - :nth-last-of-type(n)
+  CSS Selectors
+  - :root
+  - :checked
+  - :empty
+  - :disabled
+  - :required
+  - :focus
+  - ::selection
+  - ::placeholder
+*/
